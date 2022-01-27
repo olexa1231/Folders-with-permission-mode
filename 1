@@ -1,0 +1,8 @@
+import os
+
+for i in range(1, 21):  # створення папки від 1 до 20
+    name = 'usr-{}'.format(i)
+    if not os.path.exists(name):
+        os.mkdir(name,551)
+
+print("Success")
